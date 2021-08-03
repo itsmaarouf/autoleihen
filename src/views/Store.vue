@@ -1,16 +1,17 @@
 <template>
   <v-container fluid>
-    <div class="Home">
-      <h1>This is an Home page</h1>
+    <div class="Store">
+      <h1>This is an Store page</h1>
     </div>
   </v-container>
 </template>
 
 <script>
-
 export default {
-  name: "Home",
-
-  components: {},
-};
+  name: "Store"
+}
 </script>
+
+<style scoped>
+
+</style>

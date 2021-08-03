@@ -1,19 +1,31 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
-  </div>
+  <v-app>
+
+    <navigation-mobile class="hidden-md-and-up"></navigation-mobile>
+    <navigation class="hidden-sm-and-down"></navigation>
+
+    <v-main>
+      <router-view/>
+    </v-main>
+
+
+    <my-footer></my-footer>
+  </v-app>
 </template>
 
+<script>
+import MyFooter from "@/components/MyFooter";
+import NavigationMobile from "@/components/NavigationMobile";
+import Navigation from "@/components/Navigation";
+
+export default {
+  name: "App",
+  components: {Navigation, NavigationMobile, MyFooter},
+  data: () => {},
+
+};
+</script>
+
 <style lang="stylus">
-#app
-  font-family Avenir, Helvetica, Arial, sans-serif
-  -webkit-font-smoothing antialiased
-  -moz-osx-font-smoothing grayscale
-  text-align center
-  color #2c3e50
-  margin-top 60px
+
 </style>
