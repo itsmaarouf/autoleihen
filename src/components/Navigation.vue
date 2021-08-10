@@ -1,45 +1,28 @@
 <template>
   <v-app-bar absolute dark
-             elevate-on-scroll>
+             elevate-on-scroll >
     <span class="text-h4 font-weight-light">Mietwagen</span>
     <v-spacer></v-spacer>
 
-    <div class="btns">
-    <button  to="/" class="mx-4" elevation="0">
-      <svg>
-        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-      </svg>
-      <span class="navTxt">Home</span>
-    </button >
+    <v-btn to="/" class="btn" elevation="0">
+      <span  class="btn-text">Home</span>
+    </v-btn>
 
-    <button  to="/reserve" class="mx-4" elevation="0"  >
-      <svg>
-        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-      </svg>
-      <span class="navTxt">Reserve</span>
-    </button >
+    <v-btn to="/reserve" class="btn" elevation="0">
+      <span class="btn-text">Reserve</span>
+    </v-btn>
 
-    <button  to="/store" class="mx-4" elevation="0">
-      <svg>
-        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-      </svg>
-      <span class="navTxt">Store</span>
-    </button >
+    <v-btn to="/store" class="btn" elevation="0">
+      <span class="btn-text">Store</span>
+    </v-btn>
 
-    <button  to="/contact" class="mx-4" elevation="0">
-      <svg>
-        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-      </svg>
-      <span class="navTxt">contact</span>
-    </button >
+    <v-btn to="/contact" class="btn" elevation="0">
+      <span class="btn-text">contact</span>
+    </v-btn>
 
-    <button  to="/about" class="mx-4" elevation="0">
-      <svg>
-        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-      </svg>
-      <span class="navTxt">About</span>
-    </button >
-    </div>
+    <v-btn to="/about" class="btn" elevation="0">
+      <span class="btn-text" >About</span>
+    </v-btn>
 
   </v-app-bar>
 </template>
@@ -49,45 +32,29 @@ export default {};
 </script>
 
 <style lang="stylus" scoped>
-.btns
-  display: flex
-  flex-direction: row
-  height: 100%
 
+btn
+  position relative
+  color #a0a0a0
+  font-family "cursive", sans-serif
+  font-size initial
 
-button
-  color: #fff
-  cursor: pointer
-  font-size:16px
-  font-weight: 400
-  line-height: 45px
-  margin: 0 0 2em
-  max-width: 160px
-  position: relative
-  text-decoration: none
-  text-transform: uppercase
-  background: darken(#E1332D, 1.5%)
-  svg
-    height 35px
-    width 260px
-    margin-inline auto
-    left 0
+.btn
+  &:before
+    z-index -1
+  &:after
+    content ''
     position absolute
-    top 10
-  rect
-    fill none
-    stroke #fff
-    stroke-width 2
-    stroke-dasharray 422, 0
-    transition all 0.35s linear
-    width 30%
+    width 100%
+    transform scaleX(0)
+    height 2px
+    bottom 0
+    left 0
+    background-color #ffffff
+    transform-origin bottom right
+    transition transform 0.45s ease-out
   &:hover
-    background rgba(225, 51, 45, 0)
-    font-weight 900
-    letter-spacing 1px
-    rect
-      stroke-width 5
-      stroke-dasharray 15, 310
-      stroke-dashoffset 48
-      transition all 1.35s cubic-bezier(0.19, 1, 0.22, 1)
+    &:after
+      transform scaleX(1)
+      transform-origin bottom left
 </style>

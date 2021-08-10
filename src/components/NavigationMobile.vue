@@ -1,7 +1,13 @@
 <template>
-  <div id="navigation-mobile">
+  <v-app-bar absolute dark
+             elevate-on-scroll >
+    <span class="text-h4 font-weight-light">Mietwagen</span>
 
-  </div>
+    <v-spacer></v-spacer>
+
+    <v-app-bar-nav-icon></v-app-bar-nav-icon>
+
+  </v-app-bar>
 </template>
 
 <script>

@@ -4,7 +4,7 @@
     <navigation-mobile class="hidden-md-and-up"></navigation-mobile>
     <navigation class="hidden-sm-and-down"></navigation>
 
-    <v-main>
+    <v-main class="mt-16">
       <router-view/>
     </v-main>
 
