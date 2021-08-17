@@ -9,7 +9,7 @@
     </v-main>
 
 
-    <my-footer></my-footer>
+    <my-footer class="hidden-screen-only"></my-footer>
   </v-app>
 </template>
 

@@ -1,16 +1,21 @@
 <template>
-  <v-container fluid>
+  <v-container fluid class="px-0 pt-0" >
     <div class="Home">
-      <h1>This is an Home page 1</h1>
+      <img-header></img-header>
     </div>
   </v-container>
 </template>
 
 <script>
 
+import ImgHeader from "@/components/ImgHeader";
 export default {
   name: "Home",
 
-  components: {},
+  components: {ImgHeader},
 };
 </script>
+
+<style scoped lang="stylus">
+
+</style>
