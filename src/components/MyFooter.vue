@@ -2,15 +2,20 @@
   <v-footer
       dark
       padless
+
   >
     <v-card
-        class="flex"
+        class="flex footers "
         flat
         tile
     >
-      <v-card-title class="teal">
+      <v-card-title>
         <strong class="subheading">Get connected with us on social networks!</strong>
 
+        <v-spacer></v-spacer>
+        <span class="py-2 white--text font-weight-light text-subtitle-1 text-center d-inline">
+          {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+        </span>
         <v-spacer></v-spacer>
 
         <v-btn
@@ -26,9 +31,6 @@
         </v-btn>
       </v-card-title>
 
-      <v-card-text class="py-2 white--text text-center">
-        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
-      </v-card-text>
     </v-card>
   </v-footer>
 </template>
@@ -47,4 +49,7 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style lang="stylus" scoped>
+.ftr
+  background-color #868686 !important
+</style>
