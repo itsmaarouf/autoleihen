@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "@northwalker/vue-hotel-datepicker": "git+https://github.com/northwalker/vue-hotel-datepicker.git",
+    "antd-mobile": "^2.3.4",
+    "buefy": "^0.9.10",
     "core-js": "^3.6.5",
+    "element-ui": "^2.15.5",
     "v-md-date-range-picker": "^2.6.0",
     "vue": "^2.6.11",
     "vue-hotel-datepicker": "^4.4.3",

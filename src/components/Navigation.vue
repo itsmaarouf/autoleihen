@@ -8,20 +8,32 @@
       <span  class="btn-text">Home</span>
     </v-btn>
 
-    <v-btn to="/reserve" class="btn" elevation="0">
-      <span class="btn-text">Reserve</span>
+    <v-btn to="/about" class="btn" elevation="0">
+      <span  class="btn-text">About Us</span>
     </v-btn>
 
-    <v-btn to="/store" class="btn" elevation="0">
-      <span class="btn-text">Store</span>
+    <v-btn to="/cars" class="btn" elevation="0">
+      <span  class="btn-text">Our Cars</span>
+    </v-btn>
+
+    <v-btn to="/minibus" class="btn" elevation="0">
+      <span  class="btn-text">Minibus</span>
+    </v-btn>
+
+    <v-btn to="/services" class="btn" elevation="0">
+      <span  class="btn-text">Our Services</span>
+    </v-btn>
+
+    <v-btn to="/news" class="btn" elevation="0">
+      <span  class="btn-text">News</span>
+    </v-btn>
+
+    <v-btn to="/testimonials" class="btn" elevation="0">
+      <span  class="btn-text">Testimonials</span>
     </v-btn>
 
     <v-btn to="/contact" class="btn" elevation="0">
-      <span class="btn-text">contact</span>
-    </v-btn>
-
-    <v-btn to="/about" class="btn" elevation="0">
-      <span class="btn-text" >About</span>
+      <span  class="btn-text">Contact Us</span>
     </v-btn>
 
   </v-app-bar>

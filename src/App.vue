@@ -1,6 +1,7 @@
 <template>
   <v-app>
 
+
     <navigation-mobile class="hidden-md-and-up"></navigation-mobile>
     <navigation class="hidden-sm-and-down"></navigation>
 

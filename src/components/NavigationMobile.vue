@@ -24,20 +24,32 @@
               <span  class="pa-3">Home</span>
             </v-btn>
 
-            <v-btn to="/reserve" class="d-block v-size--large text-h6 font-weight-thin" @click="sheet = !sheet">
-              <span class="pa-3">Reserve</span>
+            <v-btn to="/about" class="d-block v-size--large text-h6 font-weight-thin" @click="sheet = !sheet">
+              <span  class="pa-3">About Us</span>
             </v-btn>
 
-            <v-btn to="/store" class="d-block v-size--large text-h6 font-weight-thin" @click="sheet = !sheet">
-              <span class="pa-3">Store</span>
+            <v-btn to="/cars" class="d-block v-size--large text-h6 font-weight-thin" @click="sheet = !sheet">
+              <span  class="pa-3">Our Cars</span>
+            </v-btn>
+
+            <v-btn to="/minibus" class="d-block v-size--large text-h6 font-weight-thin" @click="sheet = !sheet">
+              <span  class="pa-3">Minibus</span>
+            </v-btn>
+
+            <v-btn to="/services" class="d-block v-size--large text-h6 font-weight-thin" @click="sheet = !sheet">
+              <span  class="pa-3">Our Services</span>
+            </v-btn>
+
+            <v-btn to="/news" class="d-block v-size--large text-h6 font-weight-thin" @click="sheet = !sheet">
+              <span  class="pa-3">News</span>
+            </v-btn>
+
+            <v-btn to="/testimonials" class="d-block v-size--large text-h6 font-weight-thin" @click="sheet = !sheet">
+              <span  class="pa-3">Testimonials</span>
             </v-btn>
 
             <v-btn to="/contact" class="d-block v-size--large text-h6 font-weight-thin" @click="sheet = !sheet">
-              <span class="pa-3">contact</span>
-            </v-btn>
-
-            <v-btn to="/about" class="d-block v-size--large text-h6 font-weight-thin" @click="sheet = !sheet">
-              <span class="pa-3" >About</span>
+              <span  class="pa-3">Contact Us</span>
             </v-btn>
 
           </v-sheet>

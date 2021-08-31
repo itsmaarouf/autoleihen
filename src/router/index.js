@@ -11,16 +11,34 @@ const routes = [
     component: Home,
   },
   {
-    path: "/reserve",
-    name: "Reserve",
+    path: "/cars",
+    name: "Cars",
     component: () =>
-        import( "../views/Reserve.vue"),
+        import( "../views/Cars.vue"),
   },
   {
-    path: "/store",
-    name: "Store",
+    path: "/minibus",
+    name: "Minibus",
     component: () =>
-        import( "../views/Store.vue"),
+        import( "../views/Minibus.vue"),
+  },
+  {
+    path: "/services",
+    name: "Services",
+    component: () =>
+        import( "../views/Services.vue"),
+  },
+  {
+    path: "/news",
+    name: "News",
+    component: () =>
+        import( "../views/News.vue"),
+  },
+  {
+    path: "/testimonials",
+    name: "Testimonials",
+    component: () =>
+        import( "../views/Testimonials.vue"),
   },
   {
     path: "/contact",
