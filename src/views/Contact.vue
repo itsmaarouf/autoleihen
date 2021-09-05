@@ -1,17 +1,13 @@
 <template>
   <v-container fluid>
-    <div class="Contact">
-      <h1>This is an Contact page</h1>
-    </div>
+    <el-empty description="Contact page is empty"></el-empty>
   </v-container>
 </template>
 
 <script>
 export default {
-  name: "Contact"
-}
+  name: "Contact",
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

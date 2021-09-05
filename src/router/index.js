@@ -13,32 +13,27 @@ const routes = [
   {
     path: "/cars",
     name: "Cars",
-    component: () =>
-        import( "../views/Cars.vue"),
+    component: () => import("../views/Cars.vue"),
   },
   {
     path: "/minibus",
     name: "Minibus",
-    component: () =>
-        import( "../views/Minibus.vue"),
+    component: () => import("../views/Minibus.vue"),
   },
   {
     path: "/services",
     name: "Services",
-    component: () =>
-        import( "../views/Services.vue"),
+    component: () => import("../views/Services.vue"),
   },
   {
     path: "/news",
     name: "News",
-    component: () =>
-        import( "../views/News.vue"),
+    component: () => import("../views/News.vue"),
   },
   {
     path: "/testimonials",
     name: "Testimonials",
-    component: () =>
-        import( "../views/Testimonials.vue"),
+    component: () => import("../views/Testimonials.vue"),
   },
   {
     path: "/contact",
@@ -47,15 +42,13 @@ const routes = [
     // this generates a separate chunk (contact.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-        import(/* webpackChunkName: "contact" */ "../views/Contact.vue"),
+      import(/* webpackChunkName: "contact" */ "../views/Contact.vue"),
   },
   {
     path: "/about",
     name: "About",
-    component: () =>
-        import( "../views/About.vue"),
+    component: () => import("../views/About.vue"),
   },
-
 ];
 
 const router = new VueRouter({

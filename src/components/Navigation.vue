@@ -1,41 +1,39 @@
 <template>
-  <v-app-bar absolute dark
-             elevate-on-scroll >
+  <v-app-bar absolute dark elevate-on-scroll>
     <span class="text-h4 font-weight-light">Mietwagen</span>
     <v-spacer></v-spacer>
 
     <v-btn to="/" class="btn" elevation="0">
-      <span  class="btn-text">Home</span>
+      <span class="btn-text">Home</span>
     </v-btn>
 
     <v-btn to="/about" class="btn" elevation="0">
-      <span  class="btn-text">About Us</span>
+      <span class="btn-text">About Us</span>
     </v-btn>
 
     <v-btn to="/cars" class="btn" elevation="0">
-      <span  class="btn-text">Our Cars</span>
+      <span class="btn-text">Our Cars</span>
     </v-btn>
 
     <v-btn to="/minibus" class="btn" elevation="0">
-      <span  class="btn-text">Minibus</span>
+      <span class="btn-text">Minibus</span>
     </v-btn>
 
     <v-btn to="/services" class="btn" elevation="0">
-      <span  class="btn-text">Our Services</span>
+      <span class="btn-text">Our Services</span>
     </v-btn>
 
     <v-btn to="/news" class="btn" elevation="0">
-      <span  class="btn-text">News</span>
+      <span class="btn-text">News</span>
     </v-btn>
 
     <v-btn to="/testimonials" class="btn" elevation="0">
-      <span  class="btn-text">Testimonials</span>
+      <span class="btn-text">Testimonials</span>
     </v-btn>
 
     <v-btn to="/contact" class="btn" elevation="0">
-      <span  class="btn-text">Contact Us</span>
+      <span class="btn-text">Contact Us</span>
     </v-btn>
-
   </v-app-bar>
 </template>
 

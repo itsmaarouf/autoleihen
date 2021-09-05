@@ -1,14 +1,11 @@
 <template>
   <v-container fluid>
-    <div class="about">
-      <h1>This is an about page</h1>
-    </div>
+    <el-empty description="About page is empty"></el-empty>
   </v-container>
 </template>
 
 <script>
 export default {
   name: "About",
-
 };
 </script>
