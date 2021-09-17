@@ -8,6 +8,7 @@ export default new Vuex.Store({
   getters:{
     getCarousels: state => state.carousel,
     getSelectItems: state => state.selectItems,
+    getAutoCategorie: state => state.autoCategorie,
   },
   state: {
     todos: [],
@@ -38,6 +39,17 @@ export default new Vuex.Store({
       {id:13,dataCity:'marrakech',title: 'Tangier - Airport'},
       {id:14,dataCity:'marrakech',title: 'Tangier - City Center'},
     ],
+    autoCategorie: [
+      {id: 1, src: '/images/AutoCategory/4×4-Car-rental.jpg',categoryName: '4×4 Car rental'},
+      {id: 2,src: '/images/AutoCategory/Aeroport-Transfert.jpg',categoryName: 'Aeroport Transfert'},
+      {id: 3,src: '/images/AutoCategory/City-Car-rental.jpg',categoryName: 'City Car rental'},
+      {id: 4,src: '/images/AutoCategory/Limousine-Rental.jpg',categoryName: 'Limousine Rental'},
+      {id: 5,src: '/images/AutoCategory/long-duree.jpg',categoryName: 'long duree'},
+      {id: 6,src: '/images/AutoCategory/Luxury-Car-rental.jpg',categoryName: 'Luxury Car rental'},
+      {id: 7,src: '/images/AutoCategory/Minibus-rental.jpg',categoryName: 'Minibus rental'},
+      {id: 8,src: '/images/AutoCategory/Utility-Rental.jpg',categoryName: 'Utility Rental'},
+      {id: 9,src: '/images/AutoCategory/Wedding-car-rental.jpg',categoryName: 'Wedding car rental'},
+    ]
   },
   mutations: {},
   actions: {},
