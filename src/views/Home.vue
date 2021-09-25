@@ -4,7 +4,8 @@
 
     <form-and-text-body></form-and-text-body>
     <body-text></body-text>
-    <auto-category></auto-category>
+    <auto-category ></auto-category>
+    <why-choose-us></why-choose-us>
 
   </v-container>
 </template>
@@ -14,9 +15,10 @@ import HomeHeader from "@/components/HomeHeader";
 import FormAndTextBody from "@/components/FormAndTextBody";
 import BodyText from "@/components/BodyText";
 import AutoCategory from "@/components/autoCategory";
+import WhyChooseUs from "@/components/WhyChooseUs";
 export default {
   name: "Home",
-  components: {AutoCategory, BodyText, FormAndTextBody, HomeHeader},
+  components: {WhyChooseUs, AutoCategory, BodyText, FormAndTextBody, HomeHeader},
 };
 </script>
 
