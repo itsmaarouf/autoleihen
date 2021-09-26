@@ -6,7 +6,9 @@
     <body-text></body-text>
     <auto-category ></auto-category>
     <why-choose-us></why-choose-us>
-
+    <bestsellers></bestsellers>
+    <recent-news></recent-news>
+    <testimonial> </testimonial>
   </v-container>
 </template>
 
@@ -16,9 +18,12 @@ import FormAndTextBody from "@/components/FormAndTextBody";
 import BodyText from "@/components/BodyText";
 import AutoCategory from "@/components/autoCategory";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import Bestsellers from "@/components/Bestsellers";
+import RecentNews from "@/components/RecentNews";
+import Testimonial from "@/components/Testimonial";
 export default {
   name: "Home",
-  components: {WhyChooseUs, AutoCategory, BodyText, FormAndTextBody, HomeHeader},
+  components: {Testimonial, RecentNews, Bestsellers, WhyChooseUs, AutoCategory, BodyText, FormAndTextBody, HomeHeader},
 };
 </script>
 

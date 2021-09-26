@@ -1,13 +1,14 @@
 <template>
   <v-col>
     <v-row>
-      <v-card cols="12"
-              lg="3"
-              md="4"
-              sm="6"
+      <v-card
+              cols="12"
+              lg="4"
+              md="6"
+              sm="12"
               v-for="auto in getAutoCategorie"
               :key="auto.id"
-              class="mx-6 my-2 d-flex align-center "
+              class="mx-5 my-2 d-flex align-center "
               width="400"
               outlined
       >

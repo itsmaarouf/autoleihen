@@ -1,10 +1,8 @@
 <template>
   <div class="my-5 mx-0 ">
-    <v-container  class="containers" fluid>
+    <v-container  fluid>
       <v-row dense>
-        <v-col
-            cols="card.flex"
-        >
+        <v-col >
           <v-card>
             <v-btn class="ma-auto d-flex"
                    dark
@@ -36,11 +34,15 @@
               height="300px"
           >
           </v-img>
-          <h1 class="text-center">Why choose us</h1>
+          <h1 class="my-8 text-center">Why choose us</h1>
         </v-col>
       </v-row>
       <v-row>
-        <v-col class="pa-8">
+        <v-col class="pa-8"
+               cols="12"
+               lg="4"
+               md="6"
+               sm="12">
           <v-btn
               fab
               tile
@@ -56,7 +58,11 @@
           <h3 class="text-center my-4">Quality and experience</h3>
           <p class="text-center">Expert for more than 10 years to help you rent a car in Morocco</p>
         </v-col>
-        <v-col class="pa-8">
+        <v-col class="pa-8"
+               cols="12"
+               lg="4"
+               md="6"
+               sm="12">
           <v-btn
               fab
               tile
@@ -72,7 +78,11 @@
           <h3 class="text-center my-4">Best price guarantee</h3>
           <p class="text-center">We guarantee the best price for our car rental deals!</p>
         </v-col>
-        <v-col class="pa-8">
+        <v-col class="pa-8"
+               cols="12"
+               lg="4"
+               md="6"
+               sm="12">
           <v-btn
               fab
               tile
@@ -89,8 +99,6 @@
           <p class="text-center">Cancel without charge until 24h before the rental.</p>
         </v-col>
       </v-row>
-
-
     </v-container>
 
 
