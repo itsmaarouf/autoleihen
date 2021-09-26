@@ -1,12 +1,14 @@
 <template>
   <v-container fluid>
-    <el-empty description="Testimonials page is empty"></el-empty>
+    <testimonial></testimonial>
   </v-container>
 </template>
 
 <script>
+import Testimonial from "@/components/Testimonial";
 export default {
   name: "Testimonials",
+  components: {Testimonial},
 };
 </script>
 
