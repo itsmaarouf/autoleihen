@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="px-0 pt-0">
+  <v-container fluid class="px-0 py-0">
     <home-header></home-header>
 
     <form-and-text-body></form-and-text-body>

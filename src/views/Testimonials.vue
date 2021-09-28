@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid>
+  <v-container fluid class="px-0 py-0">
     <testimonial></testimonial>
   </v-container>
 </template>
