@@ -27,9 +27,9 @@
       <span class="btn-text">News</span>
     </v-btn>
 
-    <v-btn to="/testimonials" class="btn" elevation="0">
+<!--    <v-btn to="/testimonials" class="btn" elevation="0">
       <span class="btn-text">Testimonials</span>
-    </v-btn>
+    </v-btn>-->
 
     <v-btn to="/contact" class="btn" elevation="0">
       <span class="btn-text">Contact Us</span>

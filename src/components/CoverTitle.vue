@@ -6,8 +6,8 @@
              gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,1.5)"
       ></v-img>
       <div class="text-block">
-        <h2 class="text-center font-weight-bold">About Us</h2>
-        <router-link to="/" class="removeLink font-weight-light">Home </router-link><span class="pageName"> / About Us</span>
+        <h2 class="text-center font-weight-bold">{{pageNames}}</h2>
+        <router-link to="/" class="removeLink font-weight-light">Home </router-link><span class="pageName">/ {{pageNames}}</span>
 
       </div>
     </div>
@@ -15,7 +15,8 @@
 
 <script>
 export default {
-  name: "CoverTitle"
+  name: "CoverTitle",
+  props:['pageNames']
 }
 </script>
 
@@ -27,8 +28,9 @@ export default {
 
 .text-block
   position absolute
-  bottom 20%
-  left 45%
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%);
   color white
   font-size large
 .removeLink

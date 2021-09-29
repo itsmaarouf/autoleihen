@@ -59,13 +59,13 @@
               <span class="pa-3">News</span>
             </v-btn>
 
-            <v-btn
+<!--            <v-btn
               to="/testimonials"
-              class="d-block v-size--large text-h6 font-weight-thin"
+              class="d-block v-size&#45;&#45;large text-h6 font-weight-thin"
               @click="sheet = !sheet"
             >
               <span class="pa-3">Testimonials</span>
-            </v-btn>
+            </v-btn>-->
 
             <v-btn
               to="/contact"
