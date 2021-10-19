@@ -9,6 +9,7 @@ export default new Vuex.Store({
     getCarousels: state => state.carousel,
     getSelectItems: state => state.selectItems,
     getAutoCategorie: state => state.autoCategorie,
+    getMysponsors: state => state.Mysponsors,
   },
   state: {
     todos: [],
@@ -49,6 +50,18 @@ export default new Vuex.Store({
       {id: 7,src: '/images/AutoCategory/Minibus-rental.jpg',categoryName: 'Minibus rental'},
       {id: 8,src: '/images/AutoCategory/Utility-Rental.jpg',categoryName: 'Utility Rental'},
       {id: 9,src: '/images/AutoCategory/Wedding-car-rental.jpg',categoryName: 'Wedding car rental'},
+    ],
+    Mysponsors: [
+      {id:0, src: '/images/sponsored/Audi.png', brandName: 'Audi'},
+      {id:1, src: '/images/sponsored/bmw.png', brandName: 'bmw'},
+      {id:2, src: '/images/sponsored/dacia.png', brandName: 'dacia'},
+      {id:3, src: '/images/sponsored/hyundai.png', brandName: 'hyundai'},
+      {id:4, src: '/images/sponsored/landrover.png', brandName: 'landrover'},
+      {id:5, src: '/images/sponsored/mercedes.png', brandName: 'mercedes'},
+      {id:6, src: '/images/sponsored/peugeot.png', brandName: 'peugeot'},
+      {id:7, src: '/images/sponsored/porsche.png', brandName: 'porsche'},
+      {id:8, src: '/images/sponsored/renault.png', brandName: 'renault'},
+      {id:9, src: '/images/sponsored/volkswagen.png', brandName: 'volkswagen'},
     ]
   },
   mutations: {},
