@@ -1,18 +1,19 @@
 <template>
   <v-container fluid class="px-0 py-0">
     <CoverTitle :pageNames="pageName"></CoverTitle>
-    <el-empty description="Cars page is empty"></el-empty>
+    <car-filter></car-filter>
   </v-container>
 </template>
 
 <script>
 import CoverTitle from "@/components/CoverTitle";
+import CarFilter from "@/components/CarFilter";
 export default {
   name: "Cars",
-  components: {CoverTitle},
+  components: {CarFilter, CoverTitle},
   data() {
     return{
-      pageName: "Parking"
+      pageName: "Car Fleet"
     }
   }
 };

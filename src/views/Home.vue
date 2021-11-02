@@ -4,7 +4,7 @@
     <home-header></home-header>
     <form-and-text-body></form-and-text-body>
     <body-text></body-text>
-    <auto-category ></auto-category>
+    <auto-category></auto-category>
     <why-choose-us></why-choose-us>
     <bestsellers></bestsellers>
     <recent-news></recent-news>
